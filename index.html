@@ -1,107 +1,110 @@
 <!DOCTYPE html>
 <html lang="nl">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stripe - Betalingen eenvoudig verwerken</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="shortcut icon" href="https://assets.stripeassets.com/fzn2n1nzq965/01hMKr6nEEGVfOuhsaMIXQ/c424849423b5f036a8892afa09ac38c7/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basis Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f4f4f9;
+    }
+    .hero {
+      background-color: #ff8400;
+      color: white;
+      padding: 80px 0;
+    }
+    .footer {
+      background-color: #ff8400;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .section-title {
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
+<body>
 
-<body class="bg-gray-50 text-gray-900">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar">Bit Academy</a>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">mbo/hbo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Pro opleidingen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">manifest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
-    <nav class="bg-white shadow-md">
-        <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
-            <a href="https://stripe.com/nl" class="text-2xl font-bold text-indigo-600">Stripe</a>
-            <div class="space-x-6">
-                <a href="#" class="text-lg text-gray-600 hover:text-indigo-600">Producten</a>
-                <a href="#" class="text-lg text-gray-600 hover:text-indigo-600">Prijzen</a>
-                <a href="#" class="text-lg text-gray-600 hover:text-indigo-600">Over ons</a>
-                <a href="#" class="text-lg text-gray-600 hover:text-indigo-600">Klanten</a>
-            </div>
-            <button class="bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700">Start Nu</button>
+  <section id="home" class="hero text-center text-white">
+    <div class="container">
+      <h1 class="display-4">Welkom op Bit Academy</h1>
+      <p class="lead">hier alle informatie die u nodig heeft!</p>
+    </div>
+  </section>
+
+
+  <section id="services" class="container py-5">
+    <h2 class="section-title text-center">richtingen</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://wallpaperaccess.com/full/4635743.jpg" class="card-img-top" alt="front-end">
+          <div class="card-body">
+            <h5 class="card-title">front-end</h5>
+            <p class="card-text">bij Bit Academy kan je front-end gaan doen, waar je toffe websites kan gaan designen voor klanten! </p>
+          </div>
         </div>
-    </nav>
-
-
-    <header class="bg-indigo-600 text-white py-24 px-6 text-center">
-        <h1 class="text-5xl font-extrabold leading-tight mb-6">Maak betalingen eenvoudig met Stripe</h1>
-        <p class="text-xl mb-8">Stripe biedt alles wat je nodig hebt om betalingen wereldwijd te verwerken en je bedrijf te laten groeien.</p>
-        <div class="flex justify-center gap-6">
-            <button class="bg-white text-indigo-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100">Start Nu</button>
-            <button class="text-white border border-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-indigo-600">Lees Meer</button>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://diib.com/learn/wp-content/uploads/2020/12/Website-backend-cover.jpg" class="card-img-top" alt="back-end">
+          <div class="card-body">
+            <h5 class="card-title">back-end</h5>
+            <p class="card-text">hier bij Bit bieden wij de back-end richting, hier ga je leren om te zorgen dat jou website het ook doet zoals ie het hoort te doen.</p>
+          </div>
         </div>
-    </header>
-
-
-    <section class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-
-            <div class="text-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-                <h3 class="text-2xl font-semibold mb-2">Eenvoudige Integratie</h3>
-                <p class="text-gray-600">Integreer Stripe eenvoudig met je platform, zonder ingewikkelde code of ontwikkelaars.</p>
-            </div>
-            <!-- Kenmerk 2 -->
-            <div class="text-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-                <h3 class="text-2xl font-semibold mb-2">Wereldwijde Betalingen</h3>
-                <p class="text-gray-600">Verwerk betalingen in meer dan 135 valuta's, met naadloze ondersteuning voor wereldwijde transacties.</p>
-            </div>
-            <!-- Kenmerk 3 -->
-            <div class="text-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mx-auto text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18m9-9H3"></path>
-                </svg>
-                <h3 class="text-2xl font-semibold mb-2">Betrouwbaarheid</h3>
-                <p class="text-gray-600">Met Stripe ben je verzekerd van de hoogste niveaus van beveiliging en uptime voor je betalingen.</p>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.training.com.au/wp-content/uploads/Data-analyst-1.jpeg" class="card-img-top" alt="data-analist">
+          <div class="card-body">
+            <h5 class="card-title">data analist</h5>
+            <p class="card-text">wil jij graag werken met veel cijfers en vind je het leuk om data te compilen? dan is de data analist route iets voor jou!</p>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container py-5">
+    <h2 class="section-title text-center">waarom bij Bit?</h2>
+  </section>
 
 
-    <section class="py-16 bg-gray-100">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h2 class="text-4xl font-bold text-indigo-600 mb-6">Betaal alleen voor wat je gebruikt</h2>
-            <p class="text-xl text-gray-600 mb-12">Onze prijzen zijn transparant en zonder verborgen kosten. Begin met een gratis account en betaal alleen als je verkoopt.</p>
-            <button class="bg-indigo-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-indigo-700">Bekijk Prijzen</button>
-        </div>
-    </section>
+  <footer class="footer">
+    <p>&copy; mijn footer</p>
+  </footer>
 
 
-    <section class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h2 class="text-4xl font-bold text-gray-900 mb-6">Wat klanten zeggen</h2>
-            <div class="flex justify-center space-x-6">
-                <div class="max-w-xs">
-                    <p class="text-lg text-gray-600 mb-4">"Stripe heeft ons geholpen om betalingen op een betrouwbare manier te verwerken, zonder gedoe. Het was een geweldige beslissing."</p>
-                    <span class="font-semibold text-indigo-600">Jeroen, CEO van E-commercebedrijf</span>
-                </div>
-                <div class="max-w-xs">
-                    <p class="text-lg text-gray-600 mb-4">"De integratie met Stripe was snel en makkelijk. We konden meteen beginnen met verkopen en ontvangen betalingen."</p>
-                    <span class="font-semibold text-indigo-600">Sophie, CTO van SaaS-bedrijf</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-indigo-600 text-white py-12">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <p class="text-sm text-gray-200">© 2024 Stripe, Inc. Alle rechten voorbehouden.</p>
-            <div class="mt-4">
-                <a href="#" class="text-white hover:text-indigo-100 mx-2">Privacybeleid</a>
-                <a href="#" class="text-white hover:text-indigo-100 mx-2">Algemene Voorwaarden</a>
-                <a href="#" class="text-white hover:text-indigo-100 mx-2">Contact</a>
-            </div>
-        </div>
-    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
