@@ -1,4 +1,4 @@
--  Hi, I’m @nickrinkel69 im 19 years old and i come from the netherland
+-  Hi, I’m @nickrinkel69 im 19 years old and i come from the netherlands
 -  I’m interested in coding
 -  I’m currently learning coding!
 -  I’m looking to collaborate on nothing in particular
