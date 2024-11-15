@@ -1,10 +1,4 @@
--  Hi, I’m @nickrinkel69 im 19 years old and i come from the netherlands
--  I’m interested in coding
--  I’m currently learning coding!
--  I’m looking to collaborate on nothing in particular
--  How to reach me: coding
--  Pronouns: im him
--  Fun fact: i have 3 dogs
+hoi mijn naam is nick, ik studeer bij Bit Academy en ik ben nu bezig met front-end development! ik codeer nu nog op beginner niveau maar ik ben erg leergierig en ga met plezier naar school. ik heb 3 honden genaamd: pip, saartje en lola. ik wist eerst niet wat ik wou totdat ik coderen had gevonden wat mij gelijk leuk leek. 
 
 <!---
 nickrinkel69/nickrinkel69 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
