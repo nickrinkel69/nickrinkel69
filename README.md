@@ -2,7 +2,7 @@
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning coding!
 - 💞️ I’m looking to collaborate on nothing in particular
-- 📫 How to reach me coding
+- 📫 How to reach me: coding
 - 😄 Pronouns: im him
 - ⚡ Fun fact: i have 3 dogs
 
